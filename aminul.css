@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/back.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+}
+header{
+    padding: 30px;
+   
+}
+.profile-pic{
+    height: 120px;
+    width: 100px;
+    border: 2px white solid;
+    float: left;
+    border-radius: 50%;
+    padding: 5px;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+    font-weight: bold;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    color: teal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-contact a:hover{
+    color: tomato;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.clearing-div{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+/*...............
+personal section start
+................*/
+.personal-section{
+    padding: 0px 20px
+}
+.content{
+
+}
+.left-div{
+    float: left;
+    width: 25%;
+}
+.right-div{
+    float: left;
+    width: 75%;
+}
+.right-div-left{
+    float: left;
+    width: 20%;
+    font-weight: bold;
+    color: black;
+}
+.right-div-middle{
+    float: left;
+    width: 5%;
+}
+.right-div-right{
+    float: left;
+    width: 70%;
+    font-weight: bold;
+    color: black;
+}
+.clearing-div{
+    clear: both;
+}
+.common-hr{
+    border: solid black 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+/*...............
+work section start
+................*/
+.work-section{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+/*...............
+key skills section start
+................*/
+.key-section{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+.language-proficiency{
+
+}
+.language{
+    width:25% ;
+    float: left;
+}
+.writing{
+    width:25% ;
+    float: left;
+}
+.reading{
+    width:25% ;
+    float: left;
+}
+.speaking{
+    width:25% ;
+    float: left;
+}
+strong{
+    font-weight: bold;
+    color: teal;
+}
+/*...............
+Interest & Hobies section start
+................*/
+.interest-section{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+/*...............
+Educational section start
+................*/
+.education-section{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+.msc{
+
+}
+.msc-left{
+    float: left;
+    width: 20%;
+    font-weight: bold;
+    color: black;
+}
+.msc-middle{
+    float: left;
+    width: 5%;
+}
+.msc-right{
+    float: left;
+    width: 75%;
+    font-weight: bold;
+    color: black;
+}
+.bsc{
+
+}
+.bsc-left{
+    float: left;
+    width: 20%;
+    font-weight: bold;
+    color: black;
+}
+.bsc-middle{
+    float: left;
+    width: 5%;
+}
+.bsc-right{
+    float: left;
+    width: 75%;
+    font-weight: bold;
+    color: black;
+}
+.hsc{
+
+}
+.hsc-left{
+    float: left;
+    width: 20%;
+    font-weight: bold;
+    color: black;
+}
+.hsc-middle{
+    float: left;
+    width: 5%;
+}
+.hsc-right{
+    float: left;
+    width: 75%;
+    font-weight: bold;
+    color: black;
+}
+.ssc{
+
+}
+.ssc-left{
+    float: left;
+    width: 20%;
+    font-weight: bold;
+    color: black;
+}
+.ssc-middle{
+    float: left;
+    width: 5%;
+}
+.ssc-right{
+    float: left;
+    width: 75%;
+    font-weight: bold;
+    color: black;
+}
+/*...............
+Reference section start
+................*/
+.reference-section{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+.right-div-refer1{
+    float: left;
+    width: 45%;
+}
+.right-div-refer1 a{
+    text-decoration: none;
+}
+.right-div-refer1 a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.right-div-refer2{
+    float: left;
+    width: 45%;
+}
+.right-div-refer2 a{
+    text-decoration: none;
+}
+.right-div-refer2 a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+/*...............
+Announcement section start
+................*/
+.announcement-section{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+/*...............
+Footer section start
+................*/
+.footer-section{
+
+}
+.upper-div{
+    font-weight: bold;
+    
+}
+.facebook{
+    background-color: blue;
+    text-align: center;
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    
+    border: none;
+}
+.facebook a{
+    text-decoration: none;
+    color: white;
+    
+}
+.facebook a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.twitter{
+    background-color: #15c9d6;
+    text-align: center;
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    
+    border: none;
+}
+.twitter a{
+    text-decoration: none;
+    color: white;
+    
+}
+.twitter a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.youtube{
+    background-color: #ff0000;
+    text-align: center;
+    width: 34%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    border: none;
+    
+}
+.youtube a{
+    text-decoration: none;
+    color: white;
+    
+}
+.youtube a:hover{
+    color: rgb(16, 19, 211);
+    text-decoration: underline;
+}
+.lower-div{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+        
+}
+/*...............
+Footer section end
+................*/
